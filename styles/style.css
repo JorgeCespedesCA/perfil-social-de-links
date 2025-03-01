@@ -8,13 +8,29 @@
     --Grey-900: hsl(0, 0%, 8%);
 }
 *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+  }
+  body{
+    background: var(--Grey-900);
+    height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+
   }
 .profile{
     background: var(--Grey-800);
     display:flex;
     justify-content: center;
+    flex-direction: column ;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px 30px;
 }
 .profile header{
     display: flex;
@@ -22,6 +38,8 @@
 }
 .profile img{
     border-radius: 100%;
+    width: 110px;
+    object-fit: cover;
 }
 .decription{
     display: flex;
@@ -33,6 +51,7 @@
     font-weight: 600;
     font-style: normal;
     font-size: 28px;
+    padding: 15px;
 }
 .decription p:nth-child(2){
     color: var(--Green);
@@ -45,4 +64,20 @@
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+    margin-block-start: 30px;
+}
+.button-section{
+    display: flex;
+    flex-direction: column;
+}
+.button-section button{
+    height: 48px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: var(--Grey-700);
+    color: var(--White);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    border: 0;
 }
