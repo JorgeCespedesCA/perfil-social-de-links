@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# perfil-social-de-links
+perfil de links sociales es un reto de html y css
+=======
+>>>>>>> encabezado
 # Frontend Mentor - Social links profile
 
 ![Design preview for the Social links profile coding challenge](./preview.jpg)
@@ -91,3 +98,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+<<<<<<< HEAD
+=======
+>>>>>>> c6107e9 (inicando el proyecto)
+>>>>>>> encabezado
