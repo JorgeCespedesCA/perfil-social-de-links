@@ -17,8 +17,7 @@
   body{
     background: var(--Grey-900);
     height: 100vh;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 
